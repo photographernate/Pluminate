@@ -1,0 +1,549 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		EF04EEE91DECEAF4006B6224 /* TicketViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF04EEE81DECEAF4006B6224 /* TicketViewController.swift */; };
+		EF04EEEB1DECEFE3006B6224 /* DemoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF04EEEA1DECEFE3006B6224 /* DemoViewController.swift */; };
+		EF14998B1DEB3D5E00FDE19D /* button.png in Resources */ = {isa = PBXBuildFile; fileRef = EF14998A1DEB3D5E00FDE19D /* button.png */; };
+		EF14998D1DEB400800FDE19D /* kansas-state-university-logo-lead_t640.jpg in Resources */ = {isa = PBXBuildFile; fileRef = EF14998C1DEB400800FDE19D /* kansas-state-university-logo-lead_t640.jpg */; };
+		EF14998F1DEB403D00FDE19D /* k-state-wildcat.png in Resources */ = {isa = PBXBuildFile; fileRef = EF14998E1DEB403D00FDE19D /* k-state-wildcat.png */; };
+		EFA482D71DB9170500809D77 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFA482D61DB9170500809D77 /* AppDelegate.swift */; };
+		EFA482D91DB9170500809D77 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFA482D81DB9170500809D77 /* ViewController.swift */; };
+		EFA482DC1DB9170500809D77 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EFA482DA1DB9170500809D77 /* Main.storyboard */; };
+		EFA482DE1DB9170500809D77 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EFA482DD1DB9170500809D77 /* Assets.xcassets */; };
+		EFA482E11DB9170500809D77 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EFA482DF1DB9170500809D77 /* LaunchScreen.storyboard */; };
+		EFA482EC1DB9170500809D77 /* ECE590_smartphone_IOS_appTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFA482EB1DB9170500809D77 /* ECE590_smartphone_IOS_appTests.swift */; };
+		EFA482F71DB9170500809D77 /* ECE590_smartphone_IOS_appUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFA482F61DB9170500809D77 /* ECE590_smartphone_IOS_appUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		EFA482E81DB9170500809D77 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EFA482CB1DB9170400809D77 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EFA482D21DB9170400809D77;
+			remoteInfo = ECE590_smartphone_IOS_app;
+		};
+		EFA482F31DB9170500809D77 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EFA482CB1DB9170400809D77 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EFA482D21DB9170400809D77;
+			remoteInfo = ECE590_smartphone_IOS_app;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		EF04EEE81DECEAF4006B6224 /* TicketViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TicketViewController.swift; sourceTree = "<group>"; };
+		EF04EEEA1DECEFE3006B6224 /* DemoViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DemoViewController.swift; sourceTree = "<group>"; };
+		EF14998A1DEB3D5E00FDE19D /* button.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = button.png; sourceTree = "<group>"; };
+		EF14998C1DEB400800FDE19D /* kansas-state-university-logo-lead_t640.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = "kansas-state-university-logo-lead_t640.jpg"; path = "../../../Downloads/kansas-state-university-logo-lead_t640.jpg"; sourceTree = "<group>"; };
+		EF14998E1DEB403D00FDE19D /* k-state-wildcat.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "k-state-wildcat.png"; path = "../../../Downloads/k-state-wildcat.png"; sourceTree = "<group>"; };
+		EFA482D31DB9170500809D77 /* ECE590_smartphone_IOS_app.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ECE590_smartphone_IOS_app.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		EFA482D61DB9170500809D77 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		EFA482D81DB9170500809D77 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		EFA482DB1DB9170500809D77 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		EFA482DD1DB9170500809D77 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		EFA482E01DB9170500809D77 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		EFA482E21DB9170500809D77 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EFA482E71DB9170500809D77 /* ECE590_smartphone_IOS_appTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ECE590_smartphone_IOS_appTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		EFA482EB1DB9170500809D77 /* ECE590_smartphone_IOS_appTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ECE590_smartphone_IOS_appTests.swift; sourceTree = "<group>"; };
+		EFA482ED1DB9170500809D77 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EFA482F21DB9170500809D77 /* ECE590_smartphone_IOS_appUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ECE590_smartphone_IOS_appUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		EFA482F61DB9170500809D77 /* ECE590_smartphone_IOS_appUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ECE590_smartphone_IOS_appUITests.swift; sourceTree = "<group>"; };
+		EFA482F81DB9170500809D77 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EFA482D01DB9170400809D77 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EFA482E41DB9170500809D77 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EFA482EF1DB9170500809D77 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		EFA482CA1DB9170400809D77 = {
+			isa = PBXGroup;
+			children = (
+				EF14998E1DEB403D00FDE19D /* k-state-wildcat.png */,
+				EF14998C1DEB400800FDE19D /* kansas-state-university-logo-lead_t640.jpg */,
+				EF14998A1DEB3D5E00FDE19D /* button.png */,
+				EFA482D51DB9170500809D77 /* ECE590_smartphone_IOS_app */,
+				EFA482EA1DB9170500809D77 /* ECE590_smartphone_IOS_appTests */,
+				EFA482F51DB9170500809D77 /* ECE590_smartphone_IOS_appUITests */,
+				EFA482D41DB9170500809D77 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		EFA482D41DB9170500809D77 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EFA482D31DB9170500809D77 /* ECE590_smartphone_IOS_app.app */,
+				EFA482E71DB9170500809D77 /* ECE590_smartphone_IOS_appTests.xctest */,
+				EFA482F21DB9170500809D77 /* ECE590_smartphone_IOS_appUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EFA482D51DB9170500809D77 /* ECE590_smartphone_IOS_app */ = {
+			isa = PBXGroup;
+			children = (
+				EFA482D61DB9170500809D77 /* AppDelegate.swift */,
+				EFA482D81DB9170500809D77 /* ViewController.swift */,
+				EFA482DA1DB9170500809D77 /* Main.storyboard */,
+				EFA482DD1DB9170500809D77 /* Assets.xcassets */,
+				EFA482DF1DB9170500809D77 /* LaunchScreen.storyboard */,
+				EFA482E21DB9170500809D77 /* Info.plist */,
+				EF04EEE81DECEAF4006B6224 /* TicketViewController.swift */,
+				EF04EEEA1DECEFE3006B6224 /* DemoViewController.swift */,
+			);
+			path = ECE590_smartphone_IOS_app;
+			sourceTree = "<group>";
+		};
+		EFA482EA1DB9170500809D77 /* ECE590_smartphone_IOS_appTests */ = {
+			isa = PBXGroup;
+			children = (
+				EFA482EB1DB9170500809D77 /* ECE590_smartphone_IOS_appTests.swift */,
+				EFA482ED1DB9170500809D77 /* Info.plist */,
+			);
+			path = ECE590_smartphone_IOS_appTests;
+			sourceTree = "<group>";
+		};
+		EFA482F51DB9170500809D77 /* ECE590_smartphone_IOS_appUITests */ = {
+			isa = PBXGroup;
+			children = (
+				EFA482F61DB9170500809D77 /* ECE590_smartphone_IOS_appUITests.swift */,
+				EFA482F81DB9170500809D77 /* Info.plist */,
+			);
+			path = ECE590_smartphone_IOS_appUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		EFA482D21DB9170400809D77 /* ECE590_smartphone_IOS_app */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EFA482FB1DB9170500809D77 /* Build configuration list for PBXNativeTarget "ECE590_smartphone_IOS_app" */;
+			buildPhases = (
+				EFA482CF1DB9170400809D77 /* Sources */,
+				EFA482D01DB9170400809D77 /* Frameworks */,
+				EFA482D11DB9170400809D77 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ECE590_smartphone_IOS_app;
+			productName = ECE590_smartphone_IOS_app;
+			productReference = EFA482D31DB9170500809D77 /* ECE590_smartphone_IOS_app.app */;
+			productType = "com.apple.product-type.application";
+		};
+		EFA482E61DB9170500809D77 /* ECE590_smartphone_IOS_appTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EFA482FE1DB9170500809D77 /* Build configuration list for PBXNativeTarget "ECE590_smartphone_IOS_appTests" */;
+			buildPhases = (
+				EFA482E31DB9170500809D77 /* Sources */,
+				EFA482E41DB9170500809D77 /* Frameworks */,
+				EFA482E51DB9170500809D77 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EFA482E91DB9170500809D77 /* PBXTargetDependency */,
+			);
+			name = ECE590_smartphone_IOS_appTests;
+			productName = ECE590_smartphone_IOS_appTests;
+			productReference = EFA482E71DB9170500809D77 /* ECE590_smartphone_IOS_appTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		EFA482F11DB9170500809D77 /* ECE590_smartphone_IOS_appUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EFA483011DB9170500809D77 /* Build configuration list for PBXNativeTarget "ECE590_smartphone_IOS_appUITests" */;
+			buildPhases = (
+				EFA482EE1DB9170500809D77 /* Sources */,
+				EFA482EF1DB9170500809D77 /* Frameworks */,
+				EFA482F01DB9170500809D77 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EFA482F41DB9170500809D77 /* PBXTargetDependency */,
+			);
+			name = ECE590_smartphone_IOS_appUITests;
+			productName = ECE590_smartphone_IOS_appUITests;
+			productReference = EFA482F21DB9170500809D77 /* ECE590_smartphone_IOS_appUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EFA482CB1DB9170400809D77 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0800;
+				LastUpgradeCheck = 0800;
+				ORGANIZATIONNAME = brdunn;
+				TargetAttributes = {
+					EFA482D21DB9170400809D77 = {
+						CreatedOnToolsVersion = 8.0;
+						ProvisioningStyle = Automatic;
+					};
+					EFA482E61DB9170500809D77 = {
+						CreatedOnToolsVersion = 8.0;
+						ProvisioningStyle = Automatic;
+						TestTargetID = EFA482D21DB9170400809D77;
+					};
+					EFA482F11DB9170500809D77 = {
+						CreatedOnToolsVersion = 8.0;
+						ProvisioningStyle = Automatic;
+						TestTargetID = EFA482D21DB9170400809D77;
+					};
+				};
+			};
+			buildConfigurationList = EFA482CE1DB9170400809D77 /* Build configuration list for PBXProject "ECE590_smartphone_IOS_app" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = EFA482CA1DB9170400809D77;
+			productRefGroup = EFA482D41DB9170500809D77 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EFA482D21DB9170400809D77 /* ECE590_smartphone_IOS_app */,
+				EFA482E61DB9170500809D77 /* ECE590_smartphone_IOS_appTests */,
+				EFA482F11DB9170500809D77 /* ECE590_smartphone_IOS_appUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		EFA482D11DB9170400809D77 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EF14998F1DEB403D00FDE19D /* k-state-wildcat.png in Resources */,
+				EF14998D1DEB400800FDE19D /* kansas-state-university-logo-lead_t640.jpg in Resources */,
+				EFA482E11DB9170500809D77 /* LaunchScreen.storyboard in Resources */,
+				EF14998B1DEB3D5E00FDE19D /* button.png in Resources */,
+				EFA482DE1DB9170500809D77 /* Assets.xcassets in Resources */,
+				EFA482DC1DB9170500809D77 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EFA482E51DB9170500809D77 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EFA482F01DB9170500809D77 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EFA482CF1DB9170400809D77 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EFA482D91DB9170500809D77 /* ViewController.swift in Sources */,
+				EFA482D71DB9170500809D77 /* AppDelegate.swift in Sources */,
+				EF04EEE91DECEAF4006B6224 /* TicketViewController.swift in Sources */,
+				EF04EEEB1DECEFE3006B6224 /* DemoViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EFA482E31DB9170500809D77 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EFA482EC1DB9170500809D77 /* ECE590_smartphone_IOS_appTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EFA482EE1DB9170500809D77 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EFA482F71DB9170500809D77 /* ECE590_smartphone_IOS_appUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		EFA482E91DB9170500809D77 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EFA482D21DB9170400809D77 /* ECE590_smartphone_IOS_app */;
+			targetProxy = EFA482E81DB9170500809D77 /* PBXContainerItemProxy */;
+		};
+		EFA482F41DB9170500809D77 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EFA482D21DB9170400809D77 /* ECE590_smartphone_IOS_app */;
+			targetProxy = EFA482F31DB9170500809D77 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		EFA482DA1DB9170500809D77 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EFA482DB1DB9170500809D77 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		EFA482DF1DB9170500809D77 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EFA482E01DB9170500809D77 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		EFA482F91DB9170500809D77 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		EFA482FA1DB9170500809D77 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		EFA482FC1DB9170500809D77 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = ECE590_smartphone_IOS_app/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "ECE590-team3.ECE590-smartphone-IOS-app";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		EFA482FD1DB9170500809D77 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = ECE590_smartphone_IOS_app/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "ECE590-team3.ECE590-smartphone-IOS-app";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		EFA482FF1DB9170500809D77 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = ECE590_smartphone_IOS_appTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "ECE590-team3.ECE590-smartphone-IOS-appTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ECE590_smartphone_IOS_app.app/ECE590_smartphone_IOS_app";
+			};
+			name = Debug;
+		};
+		EFA483001DB9170500809D77 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = ECE590_smartphone_IOS_appTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "ECE590-team3.ECE590-smartphone-IOS-appTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ECE590_smartphone_IOS_app.app/ECE590_smartphone_IOS_app";
+			};
+			name = Release;
+		};
+		EFA483021DB9170500809D77 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = ECE590_smartphone_IOS_appUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "ECE590-team3.ECE590-smartphone-IOS-appUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = ECE590_smartphone_IOS_app;
+			};
+			name = Debug;
+		};
+		EFA483031DB9170500809D77 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = ECE590_smartphone_IOS_appUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "ECE590-team3.ECE590-smartphone-IOS-appUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = ECE590_smartphone_IOS_app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EFA482CE1DB9170400809D77 /* Build configuration list for PBXProject "ECE590_smartphone_IOS_app" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EFA482F91DB9170500809D77 /* Debug */,
+				EFA482FA1DB9170500809D77 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EFA482FB1DB9170500809D77 /* Build configuration list for PBXNativeTarget "ECE590_smartphone_IOS_app" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EFA482FC1DB9170500809D77 /* Debug */,
+				EFA482FD1DB9170500809D77 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EFA482FE1DB9170500809D77 /* Build configuration list for PBXNativeTarget "ECE590_smartphone_IOS_appTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EFA482FF1DB9170500809D77 /* Debug */,
+				EFA483001DB9170500809D77 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EFA483011DB9170500809D77 /* Build configuration list for PBXNativeTarget "ECE590_smartphone_IOS_appUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EFA483021DB9170500809D77 /* Debug */,
+				EFA483031DB9170500809D77 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = EFA482CB1DB9170400809D77 /* Project object */;
+}

@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_ticket_info"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="ece590.ksubandapp.TicketInfo"
+    android:background="@color/KSUPurple">
+
+    <TextView
+        android:text="Please enter you section, row and seat number in the fields below"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="12dp"
+        android:id="@+id/DesriptionTextView"
+        android:fontFamily="sans-serif"
+        android:textSize="24sp"
+        android:textStyle="normal|bold"
+        android:textAlignment="center"
+        android:textColor="@color/White"/>
+
+    <TextView
+        android:text="Section"
+        android:layout_width="80dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/DesriptionTextView"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="37dp"
+        android:id="@+id/SectionTextView"
+        android:fontFamily="sans-serif"
+        android:textSize="18sp"
+        android:textStyle="normal|bold"
+        android:textAlignment="center"
+        android:textColor="@color/White"/>
+
+    <TextView
+        android:text="Row"
+        android:layout_width="80dp"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/SectionTextView"
+        android:layout_centerHorizontal="true"
+        android:id="@+id/RowTextView"
+        android:fontFamily="sans-serif"
+        android:textSize="18sp"
+        android:textAlignment="center"
+        android:textStyle="normal|bold"
+        android:textColor="@color/White"/>
+
+    <TextView
+        android:text="Seat"
+        android:layout_width="80dp"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/RowTextView"
+        android:layout_alignParentEnd="true"
+        android:id="@+id/SeatTextView"
+        android:fontFamily="sans-serif"
+        android:textSize="18sp"
+        android:textAlignment="center"
+        android:textStyle="normal|bold"
+        android:textColor="@color/White"/>
+
+    <EditText
+        android:layout_width="80dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/SectionNumberBox"
+        android:layout_below="@+id/SectionTextView"
+        android:layout_alignStart="@+id/SectionTextView"
+        android:ems="10"
+        android:textAlignment="center"
+        android:inputType="number"
+        android:textColor="@color/White"/>
+
+    <EditText
+        android:layout_width="80dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/SeatNumberBox"
+        android:layout_below="@+id/SeatTextView"
+        android:layout_alignStart="@+id/SeatTextView"
+        android:ems="10"
+        android:textAlignment="center"
+        android:inputType="number"
+        android:textColor="@color/White"/>
+
+    <EditText
+        android:layout_width="80dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/RowNumberBox"
+        android:ems="10"
+        android:textAlignment="center"
+        android:inputType="number"
+        android:layout_below="@+id/RowTextView"
+        android:layout_alignStart="@+id/RowTextView"
+        android:textColor="@color/White"/>
+
+    <Button
+        android:text="OK"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="108dp"
+        android:id="@+id/OkButton"
+        android:layout_below="@+id/SectionNumberBox"
+        android:layout_centerHorizontal="true"
+        android:fontFamily="sans-serif"
+        android:textSize="24sp"
+        android:textStyle="normal|bold"
+        android:textAlignment="center" />
+</RelativeLayout>
